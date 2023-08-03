@@ -1,0 +1,83 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-sizing: border-box;
+}
+header{
+    height: 10vh;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+header h1{
+    font-family: 'Chela One', cursive;
+    margin: 0px;
+    font-size: 1.5rem;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    list-style-type: none;
+}
+header nav ul a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+} 
+header nav ul a:hover{
+    color: rgb(224, 224, 224);
+    text-decoration:underline;
+    text-decoration-color:#cfe730;
+    text-underline-offset: 6px;
+} 
+main{
+    height: 65vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main button{
+    color: black;
+    background-color: #cfe730; /* Green */
+    border: none;
+    padding: 12px 35px;
+    font-size: 16px;
+}
+main h2{
+    margin: 0px;
+    font-size: 3rem;
+}
+main p{
+    font-size: 1.5rem;
+}
+#tip-section {
+    padding: 50px;
+    font-size: 2.5rem;
+    color: #cfe730;
+}
+footer{
+    text-align: center;
+    height: 10vh;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li a{
+    color: white;
+}
+  
+  
